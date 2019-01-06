@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;  /*设置以上标签的padding*/
+}
+
+fieldset, img, input, button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;  /*基本的轮廓样式*/
+}
+
+ul, ol {
+    list-style: none;
+}
+
+/*清除文本框中的padding*/
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "MicrosoftYaHei", "微软雅黑";  /*设置文本框中文字*/
+}
+
+select, input {
+    vertical-align: middle;
+}
+
+/*下拉框、文本框的文字大小及marginʾ*/
+select, input, textarea {
+    font-size: 14px;
+    margin: 0;
+}
+
+/**/
+textarea {
+    resize: none;  
+}
+
+/*全局img标签样式*/
+img {
+    border: 0;
+    vertical-align: middle; /*img标签中的位置*/
+}
+
+table {
+    border-collapse: collapse; /*表格下的collapse*/
+}
+
+body {
+    font: 14px/150% "microsoft yahei",Arial, Verdana, "\5b8b\4f53"; /*body中的文字大小及集中文字类型*/
+    color: #666; /*body中的文字默认颜色*/
+    background: #fff;
+}
+
+.clearfix:before, .clearfix:after {
+    /*清除浮动*/
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/  /*层集*/
+}
+
+a {
+    color: #666;   /* a标签的默认文字颜色及去除a标签下默认的下划线*/
+    text-decoration: none;
+}
+
+/* a:hover {
+    color: 8391a5; /*a标签hover时的字体颜色*/
+
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+s, i, em {  /*三个标签中的文字为中号*/
+    font-style: normal;  
+    text-decoration: none; 
+}
+
+
+/* 设置全局的版心样式 */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* 左浮动 */
+.fl {
+    float: left;
+}
+/* 右浮动 */
+.fr {
+    float: right;
+}
+/* 文字靠左 */
+.al {
+    text-align: left;
+}
+/* 文字居中 */
+.ac {
+    text-align: center;
+}
+/* 文字靠右 */
+.ar {
+    text-align: right;
+}
+
+.hide {
+    display: none;
+}
+/* 相对定位 */
+.pr{
+    position: relative;
+}
+/* 绝对定位 */
+.po{
+    position: absolute;
+}s
+/* 右外边距 */
+.mr0{
+    margin-right: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
